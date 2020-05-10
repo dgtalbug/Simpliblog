@@ -1,0 +1,36 @@
+.title {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1rem;
+}
+
+.title a {
+  color: #019031 !important;
+  text-decoration: none !important;
+}
+
+.nav-bar {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #eaf0f1 !important;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.5rem;
+}
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: #eaf0f1;
+}
+
+.nav-item:visited,
+.nav-item:focus,
+.nav-item:active {
+  text-decoration: none !important;
+  color: #eaf0f1;
+}
+
+.nav-item:hover {
+  color: #019031;
+}

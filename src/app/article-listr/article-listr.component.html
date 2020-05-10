@@ -1,3 +1,21 @@
-<p>
-  article-listr works!
-</p>
+<div class="" *ngFor="let article of articles">
+  <div class="card">
+    <div class="card-body">
+      <div>
+        <img [src]="article.imageUrl" alt="{{ article.title }}" />
+      </div>
+      <div class="move-right">
+        <h3>
+          {{ article.title }}
+        </h3>
+        <div class="meta-info">
+          {{ article.date.toDateString() }}
+        </div>
+        <p [innerHtml]="article.description"></p>
+        <a routerLink="/{{ article.key }}" class="continue-reading"
+          >Continue Reading</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,3 +1,10 @@
-<p>
-  nav-bar works!
-</p>
+<header>
+  <div class="title">
+    <a [routerLink]="['/articles']">SimlpliBlog</a>
+  </div>
+  <nav class="nav-bar">
+    <a class="nav-item" [routerLink]="['/articles']">Articles</a>
+    <a class="nav-item" [routerLink]="['/about']">About</a>
+    <a class="nav-item" [routerLink]="['/contact']">Contact</a>
+  </nav>
+</header>
